@@ -1,0 +1,33 @@
+.recrutement{
+	text-align: center;
+	font-size: 14px;
+}
+
+.recrutement h3{
+  color: #008EB4;
+}
+
+.person{
+  margin-top: 10px;
+}
+
+.buble{
+  margin-top: 14px;
+}
+
+.proximity{
+  margin-top: 50px;
+}
+
+.dynamic{
+  margin-top: 50px;
+}
+
+.competences{
+  margin-top: 70px;
+}
+
+
+.candidature{
+  margin-top: 20px;
+}

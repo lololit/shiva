@@ -1,0 +1,206 @@
+.container-presta {
+	background-color: #CDECF9;
+	padding: 30px 0 30px 0;
+}
+
+.container-presta h3{
+  color: #008EB4;
+}
+
+.prestations {
+	background-color: white;
+	box-shadow: 2px 2px 15px #aaa;
+	padding: 0px 0px 30px;
+}
+
+.sujet{
+	color: #008EB4;
+  font-size: 50px;
+}
+
+.vision{
+	text-align: center;
+	margin: 25px 85px;
+}
+
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  opacity: 0.8;
+  border: 3px solid #008EB4;
+  margin: 30px 0px 20px;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.btn-medium {
+  color: #008EB4;
+  border: 1px solid #008EB4;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  margin: 0px 90px;
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #008EB4;
+}
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-inner h4{
+	font-weight: lighter;
+}
+
+/*Prestation*/
+.banniere{
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
+
+.banniere-contenu{
+  background-color: transparent;
+
+  width: 536%;
+  margin-top: 380px;
+}
+
+.banniere h1{
+  color: white;
+  background: black;
+  opacity: 0.4;
+}
+
+.menage{
+  width: 22%;
+}
+
+.repassage{
+  width: 26%;
+}
+
+.nettoyage{
+  width: 20%;
+}
+
+.occasions{
+  width: 23%;
+}
+
+.secondaire{
+  width: 26%;
+}
+
+.fleche{
+  margin-top: 20px;
+  color: #008EB4;
+}
+
+.contenu{
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.contenu h2{
+  color: #008EB4;
+}
+
+.contenu p{
+  font-size: 15px;
+}
+
+.tarif{
+  color: #008EB4;
+}
+
+.tarif-contenu{
+  font-size: 15px;
+}
+
+.tarif:before, .tarif:after{
+  content: '';
+  width: 3em;
+  border-bottom: #008EB4 solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tarif:before{
+  margin-left: -100%;
+  margin-right: 3em;
+}
+
+.tarif:after{
+  margin-right: -100%;
+  margin-left: 3em;
+}
+
+.tarif ul, li{
+  list-style-type: none;
+}
+
+.deduction{
+  color: #008EB4;
+  background-color: #ccf4ff;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.deduction h5{
+  color: black;
+}
+
+.footer{
+  background-color: #008EB4;
+  opacity: 0.9;
+  color: white;
+}
+
+/*Prestation*/
+
