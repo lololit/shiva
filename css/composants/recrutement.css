@@ -7,27 +7,11 @@
   color: #008EB4;
 }
 
-.person{
-  margin-top: 10px;
-}
-
-.buble{
-  margin-top: 14px;
-}
-
-.proximity{
-  margin-top: 50px;
-}
-
-.dynamic{
-  margin-top: 50px;
-}
-
 .competences{
-  margin-top: 70px;
+  margin: 70px 0px 20px 0px;
 }
 
-
-.candidature{
-  margin-top: 20px;
+.border-line {
+  border: 1px solid #E9E9E5;
+  box-shadow: 0 1px 1px 0px black;
 }

@@ -20,7 +20,7 @@
 
 .vision{
 	text-align: center;
-	margin: 25px 85px;
+	margin: 25px 0px;
 }
 
 .card {
@@ -68,7 +68,7 @@
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
-  margin: 0px 90px;
+ /* margin: 0px 90px;*/
 }
 .btn-medium:hover {
   opacity: 1;
@@ -103,23 +103,6 @@
   align-items: center;
 }
 
-.banniere-contenu{
-  background-color: transparent;
-
-  width: 536%;
-  margin-top: 380px;
-}
-
-.banniere h1{
-  color: white;
-  background: black;
-  opacity: 0.4;
-}
-
-.menage{
-  width: 22%;
-}
-
 .repassage{
   width: 26%;
 }
@@ -141,9 +124,15 @@
   color: #008EB4;
 }
 
+.fleche_dropdown{
+  color: #008EB4;
+  margin-left: 15px;
+}
+
 .contenu{
-  margin-top: 40px;
-  margin-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
 .contenu h2{
@@ -156,15 +145,12 @@
 
 .tarif{
   color: #008EB4;
-}
-
-.tarif-contenu{
-  font-size: 15px;
+  margin-top: 60px;
 }
 
 .tarif:before, .tarif:after{
   content: '';
-  width: 3em;
+  width: 2em;
   border-bottom: #008EB4 solid;
   display: inline-block;
   vertical-align: middle;
@@ -172,12 +158,12 @@
 
 .tarif:before{
   margin-left: -100%;
-  margin-right: 3em;
+  margin-right: 2em;
 }
 
 .tarif:after{
   margin-right: -100%;
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 .tarif ul, li{
@@ -192,7 +178,7 @@
   margin-top: 30px;
 }
 
-.deduction h5{
+.deduction h4{
   color: black;
 }
 

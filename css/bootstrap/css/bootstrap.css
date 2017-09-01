@@ -4664,6 +4664,7 @@ button.close {
 }
 .carousel-inner {
   position: relative;
+  max-height: 58px;
   width: 100%;
   overflow: hidden;
   margin: 50px 0px 20px 0px;
@@ -4816,7 +4817,7 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  margin-top: 80px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -4825,6 +4826,7 @@ button.close {
   text-align: center;
   list-style: none;
 }
+
 .carousel-indicators li {
   display: inline-block;
   width: 10px;

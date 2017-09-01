@@ -28,3 +28,7 @@ h2 small {
 }
 .footer 	{ text-align:center; }
 .footer a  { color:#53B2C8; }
+
+.row {
+  max-width: 100%;
+}
