@@ -312,14 +312,14 @@
 		<form action="https://formspree.io/larcher.lorraine@gmail.com" method="POST">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-3">
     			<div class="group">
-    			    <input type="text" required>
+    			    <input type="text" name="name" required>
     			    <span class="highlight"></span>
     			    <span class="bar"></span>
     			    <label>Prénom</label>
     		  	</div>
 
     		  	<div class="group">
-    			    <input type="text" required>
+    			    <input type="text" name="lastname" required>
     			    <span class="highlight"></span>
     			    <span class="bar"></span>
     			    <label>Nom</label>
@@ -333,7 +333,7 @@
     		  	</div>
 
     		  	<div class="group">
-    			    <input type="text" required>
+    			    <input type="text" name="message" required>
     			    <span class="highlight"></span>
     			    <span class="bar"></span>
     			    <label>Message</label>
@@ -343,7 +343,7 @@
             <input type="hidden" name="_format" value="plain" />
             <input type="hidden" name="_subject" value="Nouveau contact" />
             <div class="col-xs-6 col-sm-6 col-md-2">
-    		  	 <a href="#" type="submit" value="Send" class="bouton">Envoyer</a>
+    		  	 <input type="submit" value="Envoyer" class="bouton">
             </div>
         </div>
 
