@@ -29,6 +29,16 @@ input 				{
 }
 input:focus 		{ outline:none; }
 
+textarea        {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid black;
+  background-color: transparent;
+}
+textarea:focus     { outline:none; }
 /* LABEL ======================================= */
 label 				 {
   color:black;
@@ -45,6 +55,12 @@ label 				 {
 
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#008EB4;
+}
+
+textarea:focus ~ label, textarea:valid ~ label    {
   top:-20px;
   font-size:14px;
   color:#008EB4;
