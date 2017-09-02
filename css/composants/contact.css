@@ -126,7 +126,6 @@ input:focus ~ .highlight {
 .bouton{
   color: #008EB4;
   border: 1px solid #008EB4;
-  padding: 10px 15px;
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
