@@ -158,12 +158,12 @@
 
 .tarif:before{
   margin-left: -100%;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 .tarif:after{
   margin-right: -100%;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .tarif ul, li{
@@ -175,7 +175,6 @@
   background-color: #ccf4ff;
   border-radius: 10px;
   margin-bottom: 70px;
-  margin-top: 30px;
 }
 
 .deduction h4{
